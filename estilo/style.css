@@ -2,7 +2,58 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
-:root{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5f2c82;
+    
+   
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
 
+section#login{
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 520px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 2px 2px 9px rgba(30, 7, 73, 0.787);
+    transition: width 0.4s ease;
+    
 }
+div#imagem {
+    display: block;
+    background-image: url(../image/pexels-alexander-grey-1566909.jpg);
+    height: 200px;
+    background-position: left bottom;
+    border-radius: 19px 19px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+#formulario{
+    display: block;
+    padding: 10px;
+}
+
+#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario p{
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    text-align: left;
+}
+
